@@ -20,7 +20,7 @@ export async function createOnrampTransaction(amount : number , provider : strin
             startTime: new Date(),
             token: token,
             userId: Number(session?.user?.id),
-            amount: amount * 100
+            amount: amount*100
         }
     });
 
