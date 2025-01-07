@@ -9,5 +9,11 @@
     },
     "exports": {
         "./client": "./index.ts"
+    },
+    "prisma": {
+        "seed": "ts-node prisma/seed.ts"
+    },
+    "dependencies": {
+        "bcrypt": "^5.1.1"
     }
 }

@@ -13,8 +13,8 @@ model User {
   name              String?
   number            String              @unique
   password          String
-  Balance           Balance?
   OnRampTransaction OnRampTransaction[]
+  Balance           Balance[]
 }
 
 model Merchant {
